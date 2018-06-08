@@ -3,19 +3,8 @@
     <div>Hello!</div>
     <h1>I'm Ranjith Bhattaru</h1>
     <div class="intro">An Enthusiastic & Performance-Driven Professional with an extensive experience in efficiently handling</div>
-    <ul>
-      <li>
-        <i class="fas fa-long-arrow-alt-right"></i>Full Stack / MEAN Stack Web Development</li>
-      <li>
-        <i class="fas fa-long-arrow-alt-right"></i>User Interface Development</li>
-      <li>
-        <i class="fas fa-long-arrow-alt-right"></i>CMS: Template Customizations</li>
-      <li>
-        <i class="fas fa-long-arrow-alt-right"></i>E-Commerce Web Development</li>
-      <li>
-        <i class="fas fa-long-arrow-alt-right"></i>End-to-End Customer Support / Trainings</li>
-      <li>
-        <i class="fas fa-long-arrow-alt-right"></i>Search Engine Optimization</li>
+    <ul id="myList" [@listAnimation]="items.length">
+      <li *ngFor="let item of items"><i class="fas fa-long-arrow-alt-right"></i>{{ item }}</li>
     </ul>
   </div>
   <div class="col-md-4 col-sm-12 my-img">
