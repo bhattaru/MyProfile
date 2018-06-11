@@ -3,19 +3,8 @@
 body {
   /*font-family: 'PT Sans', sans-serif;*/
   font-family: "Roboto", sans-serif;
+  background: rgb(63, 80, 181);
   color: #f9f9f9;
-  background-color: #1ba49c !important;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#1ba49c),
-    to(#06bc9b)
-  ) !important;
-  background-image: -webkit-linear-gradient(left, #1ba49c, #06bc9b) !important;
-  background-image: -moz-linear-gradient(left, #1ba49c, #06bc9b) !important;
-  background-image: -ms-linear-gradient(left, #1ba49c, #06bc9b) !important;
-  background-image: -o-linear-gradient(left, #1ba49c, #06bc9b) !important;
 }
 h1 {
   font-size: 2rem !important;
@@ -31,11 +20,11 @@ a:hover {
 }
 
 .activeUrl {
-  color: #ffeb3b;
+  color: #ffc107;
 }
 
 .txt-yellow {
-  color: #ffeb3b;
+  color: #ffc107;
 }
 
 .my-img img {
@@ -73,7 +62,7 @@ a:hover {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ffeb3b;
+  background-color: #ffc107;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -90,12 +79,12 @@ a:hover {
 }
 
 .toggler-icon {
-  color: #ffeb3b;
+  color: #ffc107;
 }
 
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    border-bottom: 1px solid #00a283b0;
+    background: #2f3ea0 !important;
     padding: 1rem;
     margin-bottom: 25px;
   }
@@ -118,7 +107,7 @@ a:hover {
 .contact-content a,
 .about-content a,
 .blog a {
-  color: #ffeb3b;
+  color: #ffc107;
   text-decoration: none;
 }
 
@@ -142,7 +131,7 @@ a:hover {
   margin: 0 0 24px;
   font-weight: 900;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
-  color: #ffeb3b;
+  color: #ffc107;
 }
 
 .intro {
@@ -166,7 +155,7 @@ a:hover {
 
 .home-content li svg {
   margin-right: 10px;
-  color: #ffeb3b;
+  color: #ffc107;
 }
 
 .tech-icon svg {
