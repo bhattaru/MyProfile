@@ -4,12 +4,12 @@ body {
   /*font-family: 'PT Sans', sans-serif;*/
   font-family: "Roboto", sans-serif;
   color: #f9f9f9;
-  background-color: #06bc9b;
-  background-image: -webkit-gradient(linear,bottom left,top right, from(#06bc9b), to(#1ba49c));
-  background-image: -webkit-linear-gradient(bottom, #06bc9b, #1ba49c);
-  background-image: -moz-linear-gradient(bottom, #06bc9b, #1ba49c);
-  background-image: -ms-linear-gradient(bottom, #06bc9b, #1ba49c);
-  background-image: -o-linear-gradient(bottom, #06bc9b, #1ba49c);
+  background-color: #06BC9B;
+    background-image: -webkit-gradient(linear,left top,right top,from(#06BC9B),to(#1ba49c));
+    background-image: -webkit-linear-gradient(right,#06BC9B,#1ba49c);
+    background-image: -moz-linear-gradient(right,#06BC9B,#1ba49c);
+    background-image: -ms-linear-gradient(right,#06BC9B,#1ba49c);
+    background-image: -o-linear-gradient(right,#06BC9B,#1ba49c);
 }
 h1 {
   font-size: 2rem !important;
@@ -89,7 +89,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    background: #2f3ea0 !important;
+    border-bottom: 1px solid #00a283b0;
     padding: 1rem;
     margin-bottom: 25px;
   }
