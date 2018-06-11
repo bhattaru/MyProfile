@@ -4,12 +4,18 @@ body {
   /*font-family: 'PT Sans', sans-serif;*/
   font-family: "Roboto", sans-serif;
   color: #f9f9f9;
-  background-color: #06BC9B;
-    background-image: -webkit-gradient(linear,left top,right top,from(#06BC9B),to(#1ba49c));
-    background-image: -webkit-linear-gradient(right,#06BC9B,#1ba49c);
-    background-image: -moz-linear-gradient(right,#06BC9B,#1ba49c);
-    background-image: -ms-linear-gradient(right,#06BC9B,#1ba49c);
-    background-image: -o-linear-gradient(right,#06BC9B,#1ba49c);
+  background-color: #1ba49c !important;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1ba49c),
+    to(#06bc9b)
+  ) !important;
+  background-image: -webkit-linear-gradient(left, #1ba49c, #06bc9b) !important;
+  background-image: -moz-linear-gradient(left, #1ba49c, #06bc9b) !important;
+  background-image: -ms-linear-gradient(left, #1ba49c, #06bc9b) !important;
+  background-image: -o-linear-gradient(left, #1ba49c, #06bc9b) !important;
 }
 h1 {
   font-size: 2rem !important;
@@ -25,11 +31,11 @@ a:hover {
 }
 
 .activeUrl {
-  color: #FFEB3B;
+  color: #ffeb3b;
 }
 
 .txt-yellow {
-  color: #FFEB3B;
+  color: #ffeb3b;
 }
 
 .my-img img {
@@ -67,7 +73,7 @@ a:hover {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FFEB3B;
+  background-color: #ffeb3b;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -84,7 +90,7 @@ a:hover {
 }
 
 .toggler-icon {
-  color: #FFEB3B;
+  color: #ffeb3b;
 }
 
 @media (max-width: 768px) {
@@ -112,7 +118,7 @@ a:hover {
 .contact-content a,
 .about-content a,
 .blog a {
-  color: #FFEB3B;
+  color: #ffeb3b;
   text-decoration: none;
 }
 
@@ -136,7 +142,7 @@ a:hover {
   margin: 0 0 24px;
   font-weight: 900;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
-  color: #FFEB3B;
+  color: #ffeb3b;
 }
 
 .intro {
@@ -160,7 +166,7 @@ a:hover {
 
 .home-content li svg {
   margin-right: 10px;
-  color: #FFEB3B;
+  color: #ffeb3b;
 }
 
 .tech-icon svg {
