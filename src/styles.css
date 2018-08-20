@@ -3,7 +3,7 @@
 body {
   /*font-family: 'PT Sans', sans-serif;*/
   font-family: "Roboto", sans-serif;
-  background: rgb(63, 80, 181);
+  background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
   color: #f9f9f9;
 }
 h1 {
