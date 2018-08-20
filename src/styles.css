@@ -170,25 +170,25 @@ a:hover {
 {
   background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
 }
-.section-shaped .shape-style-1 span {
+.shape-style-1 span {
   border-radius: 50%;
 }
-.section-shaped .shape-style-1 .span-50
+.shape-style-1 .span-50
 {
   height: 50px;
   width: 50px;
 }
-.section-shaped .shape-style-1 .span-100
+.shape-style-1 .span-100
 {
   height: 100px;
   width: 100px;
 }
-.section-shaped .shape-style-1 .span-150
+.shape-style-1 .span-150
 {
   height: 150px;
   width: 150px;
 }
-.section-shaped .shape-style-1 .span-75
+.shape-style-1 .span-75
 {
   height: 75px;
   width: 75px;
