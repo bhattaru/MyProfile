@@ -3,7 +3,6 @@
 body {
   /*font-family: 'PT Sans', sans-serif;*/
   font-family: "Roboto", sans-serif;
-  background: rgb(63, 80, 181);
   color: #f9f9f9;
 }
 h1 {
@@ -198,32 +197,6 @@ footer {
 }
 .section-shaped .shape span{
   position:absolute
-}
-.section-shaped .shape+.container{
-  height:100%;
-  padding-bottom:0;
-  padding-top:6rem;
-  position:relative
-}
-.section-shaped .shape.shape-skew+.container{
-  padding-top:0
-}
-.section-shaped .shape.shape-skew+.container .col{
-  margin-top:-100px
-}
-.section-shaped .shape.shape-skew+.shape-container{
-  padding-bottom:19rem;
-  padding-top:18rem
-}
-.section-shaped .shape-skew{
-  -webkit-transform:skewY(-8deg);
-  -webkit-transform-origin:0;
-  transform:skewY(-8deg);
-  transform-origin:0
-}
-.section-shaped .shape-skew span{
-  -webkit-transform:skew(8deg);
-  transform:skew(8deg)
 }
 .section-shaped .shape-primary{
   background:linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%)
