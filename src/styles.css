@@ -166,6 +166,89 @@ a:hover {
 .post-date {
   color: #ddd;
 }
+.shape-style-1.shape-primary
+{
+  background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+}
+.section-shaped .shape-style-1 span {
+  border-radius: 50%;
+}
+.section-shaped .shape-style-1 .span-50
+{
+  height: 50px;
+  width: 50px;
+}
+.section-shaped .shape-style-1 .span-100
+{
+  height: 100px;
+  width: 100px;
+}
+.section-shaped .shape-style-1 .span-150
+{
+  height: 150px;
+  width: 150px;
+}
+.section-shaped .shape-style-1 .span-75
+{
+  height: 75px;
+  width: 75px;
+}
+.shape-style-1 :first-child {
+  background: hsla(0,0%,100%,.1);
+    bottom: auto;
+    left: -4%;
+}
+.shape-style-1 :nth-child(2) {
+  background: hsla(0,0%,100%,.1);
+    right: 4%;
+    top: 10%;
+}
+.shape-style-1 :nth-child(3) {
+  background: hsla(0,0%,100%,.3);
+  right: 5.66666%;
+  top: 280px;  
+}
+.shape-style-1 :nth-child(4) {
+  background: hsla(0,0%,100%,.15);
+  right: 7%;
+  top: 320px;  
+}
+.shape-style-1 :nth-child(5) {
+  background: hsla(0,0%,100%,.05);
+  left: 1%;
+  right: auto;
+  top: 38%;  
+}
+.shape-style-1 :nth-child(6) {
+  background: hsla(0,0%,100%,.15);
+    height: 200px;
+    left: 10%;
+    right: auto;
+    top: 44%;
+    width: 200px;  
+}
+.shape-style-1 :nth-child(7) {
+  background: hsla(0,0%,100%,.04);
+    bottom: 50%;
+    right: 36%;
+  
+}
+.shape-style-1 :nth-child(8) {
+  background: hsla(0,0%,100%,.2);
+  bottom: 70px;
+  right: 2%;  
+}
+.shape-style-1 :nth-child(9) {
+  background: hsla(0,0%,100%,.1);
+  bottom: 1%;
+  right: 2%;
+}
+.shape-style-1 :nth-child(10) {
+  background: hsla(0,0%,100%,.05);
+  bottom: 1%;
+  left: 1%;
+  right: auto; 
+}
 /*Footer Tyles */
 
 footer a {
